@@ -2,10 +2,10 @@ import 'package:first_project_test/shared_component/custom_text.dart';
 import 'package:flutter/material.dart';
 
 class CustomTextFormField extends StatefulWidget {
-   String text;
-   bool isPassword;
-   TextEditingController controller;
-   CustomTextFormField({super.key, required this.text, required this.controller,
+  final String text;
+  final bool isPassword;
+  final TextEditingController controller;
+  const CustomTextFormField({super.key, required this.text, required this.controller,
    this.isPassword = false, });
 
   @override
