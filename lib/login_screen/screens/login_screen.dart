@@ -1,5 +1,5 @@
 import 'package:first_project_test/shared_component/custom_text.dart';
-import 'package:first_project_test/shared_component/custom_text_form_field.dart';
+import 'package:first_project_test/login_screen/shared_component/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
